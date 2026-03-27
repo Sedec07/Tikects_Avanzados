@@ -1,0 +1,162 @@
+[
+  {
+    "nombre": "Atlético Nacional",
+    "pais": "Colombia",
+    "ciudad": "Medellín",
+    "estadio": "Atanasio Girardot",
+    "fundacion": 1947,
+    "imagen": "https://paladarnegro.net/escudoteca/colombia/primeraa/img/atlnacional.jpg"
+  },
+  {
+    "nombre": "Millonarios FC",
+    "pais": "Colombia",
+    "ciudad": "Bogotá",
+    "estadio": "El Campín",
+    "fundacion": 1946,
+    "imagen": "https://paladarnegro.net/escudoteca/colombia/primeraa/img/millonarios.jpg"
+  },
+  {
+    "nombre": "América de Cali",
+    "pais": "Colombia",
+    "ciudad": "Cali",
+    "estadio": "Pascual Guerrero",
+    "fundacion": 1927,
+    "imagen": "https://paladarnegro.net/escudoteca/colombia/primeraa/img/america.jpg"
+  },
+  {
+    "nombre": "Junior de Barranquilla",
+    "pais": "Colombia",
+    "ciudad": "Barranquilla",
+    "estadio": "Metropolitano",
+    "fundacion": 1924,
+    "imagen": "https://paladarnegro.net/escudoteca/colombia/primeraa/img/junior.jpg"
+  },
+  {
+    "nombre": "Independiente Santa Fe",
+    "pais": "Colombia",
+    "ciudad": "Bogotá",
+    "estadio": "El Campín",
+    "fundacion": 1941,
+    "imagen": "https://paladarnegro.net/escudoteca/colombia/primeraa/img/santafe.jpg"
+  },
+  {
+    "nombre": "Deportivo Cali",
+    "pais": "Colombia",
+    "ciudad": "Cali",
+    "estadio": "Deportivo Cali",
+    "fundacion": 1912,
+    "imagen": "https://paladarnegro.net/escudoteca/colombia/primeraa/img/depcali.jpg"
+  },
+  {
+    "nombre": "Manchester City",
+    "pais": "Inglaterra",
+    "ciudad": "Manchester",
+    "estadio": "Etihad Stadium",
+    "fundacion": 1880,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/190px-Manchester_City_FC_badge.svg.png"
+  },
+  {
+    "nombre": "Liverpool FC",
+    "pais": "Inglaterra",
+    "ciudad": "Liverpool",
+    "estadio": "Anfield",
+    "fundacion": 1892,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/180px-Liverpool_FC.svg.png"
+  },
+  {
+    "nombre": "Arsenal FC",
+    "pais": "Inglaterra",
+    "ciudad": "Londres",
+    "estadio": "Emirates Stadium",
+    "fundacion": 1886,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/180px-Arsenal_FC.svg.png"
+  },
+  {
+    "nombre": "Chelsea FC",
+    "pais": "Inglaterra",
+    "ciudad": "Londres",
+    "estadio": "Stamford Bridge",
+    "fundacion": 1905,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/190px-Chelsea_FC.svg.png"
+  },
+  {
+    "nombre": "Manchester United",
+    "pais": "Inglaterra",
+    "ciudad": "Manchester",
+    "estadio": "Old Trafford",
+    "fundacion": 1878,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/200px-Manchester_United_FC_crest.svg.png"
+  },
+  {
+    "nombre": "Tottenham Hotspur",
+    "pais": "Inglaterra",
+    "ciudad": "Londres",
+    "estadio": "Tottenham Hotspur Stadium",
+    "fundacion": 1882,
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Tottenham_Hotspur.svg/140px-Tottenham_Hotspur.svg.png"
+  },
+  {
+    "nombre": "Aston Villa",
+    "pais": "Inglaterra",
+    "ciudad": "Birmingham",
+    "estadio": "Villa Park",
+    "fundacion": 1874,
+    "imagen": "https://paladarnegro.net/escudoteca/inglaterra/premier/img/astonvilla.jpg"
+  },
+  {
+    "nombre": "Boca Juniors",
+    "pais": "Argentina",
+    "ciudad": "Buenos Aires",
+    "estadio": "La Bombonera",
+    "fundacion": 1905,
+    "imagen": "https://paladarnegro.net/escudoteca/argentina/primeradivision/img/boca.jpg"
+  },
+  {
+    "nombre": "River Plate",
+    "pais": "Argentina",
+    "ciudad": "Buenos Aires",
+    "estadio": "Monumental",
+    "fundacion": 1901,
+    "imagen": "https://paladarnegro.net/escudoteca/argentina/primeradivision/img/river.jpg"
+  },
+  {
+    "nombre": "Independiente",
+    "pais": "Argentina",
+    "ciudad": "Avellaneda",
+    "estadio": "Libertadores de América",
+    "fundacion": 1905,
+    "imagen": "https://paladarnegro.net/escudoteca/argentina/primeradivision/img/independiente.jpg"
+  },
+  {
+    "nombre": "Racing Club",
+    "pais": "Argentina",
+    "ciudad": "Avellaneda",
+    "estadio": "El Cilindro",
+    "fundacion": 1903,
+    "imagen": "https://paladarnegro.net/escudoteca/argentina/primeradivision/img/racing.jpg"
+  },
+  {
+    "nombre": "San Lorenzo",
+    "pais": "Argentina",
+    "ciudad": "Buenos Aires",
+    "estadio": "Nuevo Gasómetro",
+    "fundacion": 1908,
+    "imagen": "https://paladarnegro.net/escudoteca/argentina/primeradivision/img/sanlorenzo.jpg"
+  },
+  {
+    "nombre": "Estudiantes de La Plata",
+    "pais": "Argentina",
+    "ciudad": "La Plata",
+    "estadio": "UNO",
+    "fundacion": 1905,
+    "imagen": "https://paladarnegro.net/escudoteca/argentina/primeradivision/img/estudiantes.jpg"
+  },
+  {
+    "nombre": "Newell's Old Boys",
+    "pais": "Argentina",
+    "ciudad": "Rosario",
+    "estadio": "Coloso del Parque",
+    "fundacion": 1903,
+    "imagen": "https://paladarnegro.net/escudoteca/argentina/primeradivision/img/newells.jpg"
+  }
+]
