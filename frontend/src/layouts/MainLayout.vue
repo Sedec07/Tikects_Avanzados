@@ -2,10 +2,7 @@
   <div class="layout">
     <header class="layout-header">
       <nav>
-        <RouterLink to="/">Inicio</RouterLink>
-        <RouterLink to="/">Howarts Miembros</RouterLink>
-        <RouterLink to="/about">Perfil</RouterLink>
-        <RouterLink to="/clubes">Clubes de Fútbol</RouterLink>
+        <RouterLink to="/">Log in</RouterLink>
       </nav>
     </header>
 

@@ -1,2 +1,16 @@
+# Ignorar todas las carpetas node_modules en cualquier nivel
 node_modules/
+**/node_modules/
+
+# Ignorar archivos de variables de entorno
 .env
+backend/.env
+frontend/.env
+
+# Ignorar carpetas de compilación de Vue (Vite)
+dist/
+**/dist/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
