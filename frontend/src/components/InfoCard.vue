@@ -32,7 +32,7 @@ defineProps({
 .info-card__image {
   width: 100%;
   height: 200px;
-  object-fit: cover; /* Esto evita que la imagen se deforme */
+  object-fit: cover;
   border-radius: 5px;
 }
 

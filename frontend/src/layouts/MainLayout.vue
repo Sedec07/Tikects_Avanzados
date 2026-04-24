@@ -3,6 +3,7 @@
     <header class="layout-header">
       <nav>
         <RouterLink to="/">Log in</RouterLink>
+        <p class="layout-footer">Sistema Tickets - Mesa de ayuda</p>
       </nav>
     </header>
 
