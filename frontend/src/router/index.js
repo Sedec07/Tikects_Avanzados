@@ -1,10 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import { useAuthStore } from '../stores/auth' // 1. Importamos el almacén de seguridad
+import { useAuthStore } from '../stores/auth'
+
+// Layout
 import MainLayout from '../layouts/MainLayout.vue'
+
+// Vistas
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import ClubesView from '../views/ClubesView.vue'
-import TicketsView from '../views/TicketsView.vue' // 2. Importamos la nueva vista
+import TicketsView from '../views/TicketsView.vue'
+import CreateTicketView from '../views/CreateTicketView.vue'
 
 const routes = [
   {
@@ -27,11 +32,17 @@ const routes = [
         component: ClubesView,
       },
       {
-        path: 'tickets', // 3. Nueva ruta de tickets
+        path: 'tickets',
         name: 'tickets',
         component: TicketsView,
-        meta: { requiresAuth: true } // 🔒 Etiqueta para proteger esta ruta
+        meta: { requiresAuth: true }
       },
+      {
+        path: 'crear-ticket',
+        name: 'crear-ticket',
+        component: CreateTicketView,
+        meta: { requiresAuth: true }
+      }
     ],
   },
 ]
@@ -41,16 +52,15 @@ const router = createRouter({
   routes,
 })
 
-// 👮 4. GUARDIA DE NAVEGACIÓN (Navigation Guard)
+// 🔒 Protección de rutas
 router.beforeEach((to, from, next) => {
-  const auth = useAuthStore() // Accedemos al estado de Pinia
-  
-  // Si la ruta pide estar logueado y el usuario no tiene token...
+  const auth = useAuthStore()
+
   if (to.meta.requiresAuth && !auth.token) {
     alert('Debes iniciar sesión para ver esta sección')
-    next('/') // Lo mandamos al Home (Login)
+    next('/')
   } else {
-    next() // Si todo está bien, lo dejamos pasar
+    next()
   }
 })
 

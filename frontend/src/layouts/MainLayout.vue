@@ -1,21 +1,28 @@
 <template>
-  <div class="layout">
-    <header class="layout-header">
-      <nav>
-        <RouterLink to="/">Log in</RouterLink>
-      </nav>
-    </header>
+  <div>
 
-    <main class="layout-main">
-      <RouterView />
-    </main>
+    <!-- 🔵 NAVBAR -->
+    <nav class="navbar navbar-dark bg-dark px-4">
+      <span class="navbar-brand">Sistema de Tickets</span>
 
-    <footer class="layout-footer">
-      <p>© 2026 Vue 3 Ejemplo</p>
-    </footer>
+      <div class="d-flex gap-2">
+        <router-link to="/tickets" class="btn btn-outline-light btn-sm">
+          📋 Ver Tickets
+        </router-link>
+
+        <router-link to="/crear-ticket" class="btn btn-success btn-sm">
+          ➕ Crear Ticket
+        </router-link>
+      </div>
+    </nav>
+
+    <!-- 🔽 AQUÍ CAMBIAN LAS PANTALLAS -->
+    <div class="container mt-4">
+      <router-view />
+    </div>
+
   </div>
 </template>
-
 <style scoped>
 .layout {
   min-height: 100vh;

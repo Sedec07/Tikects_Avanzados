@@ -117,3 +117,11 @@ app.post('/api/tickets', authenticateToken, async (req, res) => {
 
 const PORT = 3000;
 app.listen(PORT, () => console.log(`🚀 Servidor (ESM) listo en http://localhost:${PORT}`));
+
+import CreateTicketView from '../views/CreateTicketView.vue'
+import TicketsView from '../views/TicketsView.vue'
+
+const routes = [
+  { path: '/tickets', component: TicketsView },
+  { path: '/crear-ticket', component: CreateTicketView }
+]
