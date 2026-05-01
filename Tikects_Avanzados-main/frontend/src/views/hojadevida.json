@@ -1,0 +1,41 @@
+{
+  "datos_personales": {
+    "nombre": "Melquisedec Erazo",
+    "rol": "Power Platform Software Developer",
+    "ubicacion": "Cali, Colombia",
+    "modalidad": "Trabajo Remoto",
+    "foto": "https://media.licdn.com/dms/image/v2/D5603AQEO_PYZTkf2lA/profile-displayphoto-scale_200_200/B56Zh0SpdBHUAc-/0/1754297703144?e=1773878400&v=beta&t=D5ePlywbR9Ep182XGt1JzutxGIemiVc9YosXf7dXWMU"
+  },
+  "perfil_profesional": "Estudiante de sistemas enfocado en el desarrollo de software y la implementación de IA. Con mas de 4 años de experiencia en automatización mediante Power Platform.",
+  "habilidades": [
+    "SharePoint Online",
+    "Power Apps",
+    "SQL Server",
+    "Power Automate Desktop",
+    "Power Platform",
+    "Inglés B1"
+  ],
+  "proyectos_recientes": [
+    {
+      "nombre": "RPA Liberación Lotes",
+      "descripcion": "Robot para liberación automatica de lotes de compras",
+      "tecnologia": "Power Automate Desktop"
+    },
+    {
+      "nombre": "Calendario de reserva de salas",
+      "descripcion": "Aplicativo de reserva de salas para Gestión Humana",
+      "tecnologia": "Power Apps"
+    }
+    ,
+    {
+      "nombre": "Intranet corporativa",
+      "descripcion": "Centro de información y trabajo en equipo con enfoque empresarial",
+      "tecnologia": "SharePoint Online"
+    }
+  ],
+  "contacto": {
+    "email": "erazomelquisedec@gmail.com",
+    "telefono": "+573154964139",
+    "linkedin": "linkedin.com/in/melquisedec-erazo-023415363"
+  }
+}
